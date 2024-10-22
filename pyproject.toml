@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "matf-r-i-llms-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["Vladimir Filipovic <vladofilipovic@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+torch = ">=2.0.1"
+jupyterlab = "^4.2.5"
+tiktoken = "^0.8.0"
+matplotlib = "^3.9.2"
+tqdm = "^4.66.5"
+pandas = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
